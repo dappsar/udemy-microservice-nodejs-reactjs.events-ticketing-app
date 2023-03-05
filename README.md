@@ -169,3 +169,4 @@ Note: All commands and script are prepared to run in Linux with minikube.
 - [minikube Error registry](https://stackoverflow.com/questions/74493358/docker-manifest-unknown-from-local-docker-registry)
 - [minikube run local images](https://stackoverflow.com/questions/42564058/how-to-use-local-docker-images-with-minikube)
 - [kubernetes ingress nginx installation guide](https://kubernetes.github.io/ingress-nginx/deploy/)
+- [Patterns for Microservices — Sync vs. Async](https://dzone.com/articles/patterns-for-microservices-sync-vs-async)
