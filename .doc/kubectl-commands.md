@@ -84,6 +84,11 @@
 
 `$minikube dashboard`
 
+## Secrets
+
+- To create a secret to use with jwt
+
+`$kubectl create secret generic jwt-secret --from-literal=jwt=asdf`
 
 ## References
 

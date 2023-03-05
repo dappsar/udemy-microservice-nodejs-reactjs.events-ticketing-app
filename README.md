@@ -74,15 +74,22 @@ Note: All commands and script are prepared to run in Linux with minikube.
 
   (192.168.49.2: 'minikube ip' command)
 
-### 6. start All Infrastrcture
+
+### 6. Create secrets
+
+  Example:
+      
+    `$kubectl create secret generic jwt-secret --from-literal=JWT_KEY=asdf`
+
+### 7. start All Infrastrcture
 
     `$ skaffold dev`
 
-### 7. Access to App Client
+### 8. Access to App Client
 
     [TBC]
 
-### 8. Access to API
+### 9. Access to API
 
     By host name (required that you add posts.com with minikube IP in your hosts file): 
 
@@ -98,7 +105,7 @@ Note: All commands and script are prepared to run in Linux with minikube.
 
   ![client app](./.doc/images/app.png)
 
-### 8. View minikube Dashboard
+### 10. View minikube Dashboard
 
     `$ minikube dashboard` 
 
@@ -120,9 +127,12 @@ Note: All commands and script are prepared to run in Linux with minikube.
     `$ kubectl exec posts-depl-6c445fcf4d-qpx95 -- netstat -tupln`
 
   - Check someting running in port 80
-
     
     `$ sudo lsof -i tcp:80`
+
+  - Create secrets
+    
+    `$kubectl create secret generic jwt-secret --from-literal=JWT_KEY=asdf`
 
 ---
 
