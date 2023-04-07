@@ -31,6 +31,7 @@ Note: All commands and script are prepared to run in Linux with minikube.
 - Javascript (React & Testing)
 - Express
 - reactjs
+- nextjs
 - micro-services
 - minikube
 - Docker
